@@ -1,5 +1,6 @@
-import { UniqueId } from "./unique-id.vo";
+import { UniqueId } from "./value-objects/unique-id.vo"
 
+UniqueId
 export abstract class Entity<T extends UniqueId=UniqueId> {
     constructor(protected readonly id:T){
 

@@ -1,4 +1,5 @@
 import { randomUUID } from 'crypto'
+
 export class UniqueId {
     private readonly value: string;
 
